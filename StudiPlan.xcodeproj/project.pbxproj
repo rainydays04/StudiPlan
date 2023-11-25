@@ -15,6 +15,7 @@
 		5947BB452AD8BAF900813E23 /* gradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB442AD8BAF900813E23 /* gradeCalculator.swift */; };
 		5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB462AD8BC2100813E23 /* studyTimer.swift */; };
 		5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB482AD8BE9F00813E23 /* reasources.swift */; };
+		59C2E5102B125FF6009F83B9 /* study-TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2E50F2B125FF6009F83B9 /* study-TimerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5947BB442AD8BAF900813E23 /* gradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradeCalculator.swift; sourceTree = "<group>"; };
 		5947BB462AD8BC2100813E23 /* studyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyTimer.swift; sourceTree = "<group>"; };
 		5947BB482AD8BE9F00813E23 /* reasources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reasources.swift; sourceTree = "<group>"; };
+		59C2E50F2B125FF6009F83B9 /* study-TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "study-TimerModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				5947BB482AD8BE9F00813E23 /* reasources.swift */,
 				5947BB442AD8BAF900813E23 /* gradeCalculator.swift */,
 				5947BB462AD8BC2100813E23 /* studyTimer.swift */,
+				59C2E50F2B125FF6009F83B9 /* study-TimerModel.swift */,
 				5947BB422AD8B87800813E23 /* assignments.swift */,
 				5947BB382AD8B6B000813E23 /* Assets.xcassets */,
 				5947BB3A2AD8B6B000813E23 /* Preview Content */,
@@ -151,6 +154,7 @@
 			files = (
 				5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */,
 				5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */,
+				59C2E5102B125FF6009F83B9 /* study-TimerModel.swift in Sources */,
 				5947BB372AD8B6AE00813E23 /* ContentView.swift in Sources */,
 				5947BB452AD8BAF900813E23 /* gradeCalculator.swift in Sources */,
 				5947BB352AD8B6AE00813E23 /* StudiPlanApp.swift in Sources */,
