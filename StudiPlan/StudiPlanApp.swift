@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+/*
+ 
+ */
 @main
 struct StudiPlanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            NavigationView {
+                assignments()
+            }
         }
     }
 }
