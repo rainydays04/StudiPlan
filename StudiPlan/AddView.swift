@@ -39,9 +39,14 @@ struct AddView: View {
             .navigationTitle("Add an Assignment")
         }
     func saveButtonPressed() {
-        listViewModel.addItem(title: textFieldText)
-        presentationMode.wrappedValue.dismiss()
+
+            listViewModel.addItem(title: textFieldText)
+            presentationMode.wrappedValue.dismiss()
+            
+        
+        
     }
+ 
     }
     
     struct AddView_Previews: PreviewProvider {
