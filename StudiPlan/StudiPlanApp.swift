@@ -17,8 +17,8 @@ struct StudiPlanApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
             NavigationView {
+                ContentView()
             assignments()
             }
             .environmentObject(listViewModel)
