@@ -12,12 +12,16 @@ import SwiftUI
  */
 @main
 struct StudiPlanApp: App {
+    
+   @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
             NavigationView {
                 assignments()
             }
+            .environmentObject(listViewModel)
         }
     }
 }

@@ -9,28 +9,30 @@ import SwiftUI
 
 struct assignments: View {
     
-    @State var items: [String] = [
-    "This is the first title",
-    "This is the second",
-    "Third"
-    ]
+    @EnvironmentObject var listViewModel: ListViewModel
+   
     var body: some View {
         
-
+        
         
         List {
-            ForEach(items, id: \.self) { item in
-                ListRowView(title: item)
+            ForEach(listViewModel.items) { item in
+                ListRowView(item: item)
             }
+            .onDelete(perform: listViewModel.deleteItem)
+            .onMove(perform: listViewModel.moveItem)
+            }
+            .listStyle(PlainListStyle())
+            .navigationTitle("Assignments")
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing:
+                    NavigationLink("Add", destination: AddView())
+            )
+        
+ 
         }
-        .listStyle(PlainListStyle())
-        .navigationTitle("Assignments")
-        .navigationBarItems(
-            leading: EditButton(),
-            trailing:
-                NavigationLink("Add", destination: Text("Destination"))
-        )
-    }
+
 }
     struct assignments_Previews: PreviewProvider {
         static var previews: some View {
@@ -39,6 +41,4 @@ struct assignments: View {
             }
         }
     }
-
-
-
+    

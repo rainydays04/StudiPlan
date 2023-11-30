@@ -15,6 +15,8 @@
 		5947BB452AD8BAF900813E23 /* gradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB442AD8BAF900813E23 /* gradeCalculator.swift */; };
 		5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB462AD8BC2100813E23 /* studyTimer.swift */; };
 		5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB482AD8BE9F00813E23 /* reasources.swift */; };
+		59A7DEB92B181593008646B7 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A7DEB82B181593008646B7 /* ItemModel.swift */; };
+		59A7DEBC2B1822D6008646B7 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A7DEBB2B1822D6008646B7 /* ListViewModel.swift */; };
 		59C2E5102B125FF6009F83B9 /* study-TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2E50F2B125FF6009F83B9 /* study-TimerModel.swift */; };
 		59E8654F2B157E650064178B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8654E2B157E650064178B /* ListRowView.swift */; };
 		59E865512B15812F0064178B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E865502B15812F0064178B /* AddView.swift */; };
@@ -30,6 +32,8 @@
 		5947BB442AD8BAF900813E23 /* gradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradeCalculator.swift; sourceTree = "<group>"; };
 		5947BB462AD8BC2100813E23 /* studyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyTimer.swift; sourceTree = "<group>"; };
 		5947BB482AD8BE9F00813E23 /* reasources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reasources.swift; sourceTree = "<group>"; };
+		59A7DEB82B181593008646B7 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		59A7DEBB2B1822D6008646B7 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		59C2E50F2B125FF6009F83B9 /* study-TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "study-TimerModel.swift"; sourceTree = "<group>"; };
 		59E8654E2B157E650064178B /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		59E865502B15812F0064178B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		5947BB332AD8B6AE00813E23 /* StudiPlan */ = {
 			isa = PBXGroup;
 			children = (
+				59A7DEB72B181563008646B7 /* Model */,
+				59A7DEBA2B1822B1008646B7 /* ViewModels */,
 				5947BB342AD8B6AE00813E23 /* StudiPlanApp.swift */,
 				5947BB362AD8B6AE00813E23 /* ContentView.swift */,
 				5947BB482AD8BE9F00813E23 /* reasources.swift */,
@@ -86,6 +92,22 @@
 				5947BB3B2AD8B6B000813E23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59A7DEB72B181563008646B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59A7DEB82B181593008646B7 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59A7DEBA2B1822B1008646B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				59A7DEBB2B1822D6008646B7 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A7DEB92B181593008646B7 /* ItemModel.swift in Sources */,
 				5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */,
 				5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */,
 				59E865512B15812F0064178B /* AddView.swift in Sources */,
@@ -167,6 +190,7 @@
 				5947BB452AD8BAF900813E23 /* gradeCalculator.swift in Sources */,
 				5947BB352AD8B6AE00813E23 /* StudiPlanApp.swift in Sources */,
 				5947BB432AD8B87800813E23 /* assignments.swift in Sources */,
+				59A7DEBC2B1822D6008646B7 /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
