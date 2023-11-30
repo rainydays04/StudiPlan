@@ -19,7 +19,7 @@ struct StudiPlanApp: App {
         WindowGroup {
             ContentView()
             NavigationView {
-                assignments()
+            assignments()
             }
             .environmentObject(listViewModel)
         }

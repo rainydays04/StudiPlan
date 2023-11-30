@@ -10,7 +10,8 @@ import SwiftUI
 struct assignments: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
-   
+ 
+    
     var body: some View {
         
         
@@ -21,17 +22,18 @@ struct assignments: View {
             }
             .onDelete(perform: listViewModel.deleteItem)
             .onMove(perform: listViewModel.moveItem)
-            }
-            .listStyle(PlainListStyle())
-            .navigationTitle("Assignments")
-            .navigationBarItems(
-                leading: EditButton(),
-                trailing:
-                    NavigationLink("Add", destination: AddView())
-            )
-        
- 
         }
+        .listStyle(PlainListStyle())
+        .navigationTitle("Assignments")
+        .navigationBarItems(
+            leading: EditButton(),
+            trailing:
+                NavigationLink("Add", destination: AddView())
+        )
+        
+        
+    }
+
 
 }
     struct assignments_Previews: PreviewProvider {
@@ -39,6 +41,7 @@ struct assignments: View {
             NavigationView {
                 assignments()
             }
+            .environmentObject(ListViewModel())
         }
     }
-    
+
