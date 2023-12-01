@@ -25,8 +25,8 @@ struct ContentView: View {
                             .cornerRadius(8)
                             .padding()
                     }
-                        NavigationLink(destination: gradeCalculator()) {
-                            Text("Grade Caluclator")
+                        NavigationLink(destination: Calculator()) {
+                            Text("Caluclator")
                                 .font(.title3)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.black)
