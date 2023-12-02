@@ -24,50 +24,52 @@ struct Calculator: View {
     @State var showAlert = false
     
     var body: some View {
-        
-        VStack {
-            HStack {
-                Spacer()
-                Text(visibleWorkings)
-                    .padding()
-                    .font(.system(size: 30, weight: .heavy))
-            }
-            HStack {
-                Spacer()
-                Text(visibleResults)
-                    .padding()
-                    .font(.system(size: 50, weight: .heavy))
-            }.frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-            ForEach(grid, id: \.self)
-            {
-                row in
+        NavigationStack{
+            VStack {
                 HStack {
-                    ForEach(row, id:\.self)
-                    {
-                        cell in
-                        Button(action: {buttonPressed(cell: cell)}, label: {
-                            Text(cell)
-                                .foregroundColor(buttonColor(cell))
-                                .font(.system(size:40, weight:.heavy))
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            
-                        })
+                    Spacer()
+                    Text(visibleWorkings)
+                        .padding()
+                        .font(.system(size: 30, weight: .heavy))
+                }
+                HStack {
+                    Spacer()
+                    Text(visibleResults)
+                        .padding()
+                        .font(.system(size: 50, weight: .heavy))
+                }.frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                
+                ForEach(grid, id: \.self)
+                {
+                    row in
+                    HStack {
+                        ForEach(row, id:\.self)
+                        {
+                            cell in
+                            Button(action: {buttonPressed(cell: cell)}, label: {
+                                Text(cell)
+                                    .foregroundColor(buttonColor(cell))
+                                    .font(.system(size:40, weight:.heavy))
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                
+                            })
+                        }
                     }
+                }
+                
+                .background(Color.white.ignoresSafeArea())
+                .alert(isPresented: $showAlert)
+                {
+                    Alert(
+                        title: Text("Invalid Input"),
+                        message: Text(visibleWorkings),
+                        dismissButton: .default(Text("Okay"))
+                    )
                 }
             }
             .background(Color.white.ignoresSafeArea())
-            .alert(isPresented: $showAlert)
-            {
-                Alert(
-                    title: Text("Invalid Input"),
-                    message: Text(visibleWorkings),
-                    dismissButton: .default(Text("Okay"))
-                    )
-            }
         }
-        .background(Color.white.ignoresSafeArea())
-        
     }
     
     func buttonColor(_ cell: String) -> Color
@@ -159,6 +161,7 @@ struct Calculator: View {
         }
         return String(format: "%.2f", val)
     }
+   
     
 }
 

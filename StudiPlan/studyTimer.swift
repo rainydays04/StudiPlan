@@ -19,9 +19,8 @@ struct studyTimer: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(red: 241/255, green: 239/255, blue: 231/255)
-                    .ignoresSafeArea()
-                
+                Color(.white)
+                                    
                 VStack {
                     Text("Study Tracker")
                         .font(.largeTitle)
@@ -45,7 +44,7 @@ struct studyTimer: View {
                         .cornerRadius(20)
                         .overlay(
                                 RoundedRectangle(cornerRadius: 20)
-                                    .stroke(Color(red: 153/255.0, green: 51/255.0, blue: 255/255.0), lineWidth: 6)
+                                    .stroke(Color(red:  121/255.0, green: 135/255.0, blue: 184/255.0), lineWidth: 6)
                             )
                         .padding(.top, 5)
                     
@@ -54,7 +53,7 @@ struct studyTimer: View {
                         .disabled(vm.isActive)
                         .animation(.easeInOut, value: vm.minutes)
                         .frame(width: width)
-                        .accentColor(Color(red: 153/255.0, green: 51/255.0, blue: 255/255.0))
+                        .accentColor(Color(red: 121/255.0, green: 135/255.0, blue: 184/255.0))
 
 
                     HStack(spacing:50) {
@@ -77,7 +76,7 @@ struct studyTimer: View {
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)
                     .padding()
-                    .background(Color(red: 153/255.0, green: 51/255.0, blue: 255/255.0))
+                    .background(Color(red: 121/255.0, green: 135/255.0, blue: 184/255.0))
                     .cornerRadius(8)
                     .padding()
 
