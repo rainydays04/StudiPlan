@@ -10,7 +10,7 @@ import SwiftUI
 /*
  
  */
-@main
+
 struct StudiPlanApp: App {
     
    @StateObject var listViewModel: ListViewModel = ListViewModel()

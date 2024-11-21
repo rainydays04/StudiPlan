@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		591C89D32CEFA0B600652DDB /* NoteMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C89D22CEFA0B600652DDB /* NoteMaster.swift */; };
 		593D1DA22CEC21070080749E /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D1DA12CEC21070080749E /* NoteRow.swift */; };
 		5947BB352AD8B6AE00813E23 /* StudiPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB342AD8B6AE00813E23 /* StudiPlanApp.swift */; };
 		5947BB372AD8B6AE00813E23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB362AD8B6AE00813E23 /* ContentView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		591C89D22CEFA0B600652DDB /* NoteMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMaster.swift; sourceTree = "<group>"; };
 		593D1DA12CEC21070080749E /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
 		5947BB312AD8B6AE00813E23 /* StudiPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5947BB342AD8B6AE00813E23 /* StudiPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiPlanApp.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				5947BB382AD8B6B000813E23 /* Assets.xcassets */,
 				5947BB3A2AD8B6B000813E23 /* Preview Content */,
 				593D1DA12CEC21070080749E /* NoteRow.swift */,
+				591C89D22CEFA0B600652DDB /* NoteMaster.swift */,
 				59F9D4B72CEEE46F00FEF23B /* MainNotes.swift */,
 				594FD2D92CEF8A8F0072FEF3 /* NotesSheet.swift */,
 				59F9D4B52CEEE12E00FEF23B /* Note.swift */,
@@ -205,6 +208,7 @@
 				5947BB452AD8BAF900813E23 /* Calculator.swift in Sources */,
 				5947BB352AD8B6AE00813E23 /* StudiPlanApp.swift in Sources */,
 				59F9D4B82CEEE46F00FEF23B /* MainNotes.swift in Sources */,
+				591C89D32CEFA0B600652DDB /* NoteMaster.swift in Sources */,
 				5947BB432AD8B87800813E23 /* assignments.swift in Sources */,
 				59A7DEBC2B1822D6008646B7 /* ListViewModel.swift in Sources */,
 			);

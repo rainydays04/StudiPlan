@@ -20,6 +20,7 @@ struct NotesSheet: View {
     @State private var title = ""
     @State private var description = ""
     @FocusState private var isDescriptionFocused: Bool
+    
     var body: some View {
         NavigationStack {
             VStack {

@@ -24,7 +24,7 @@ struct NoteRow: View {
                         radius:100)
             }
             .padding()
-            Text(note.description)
+            Text(note.content)
                 .font(.body)
                 .lineLimit(1)
                 .padding(.horizontal)

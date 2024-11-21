@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct NoteMaster: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@main
+struct NoteMaster: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+        
     }
 }
 
-#Preview {
-    NoteMaster()
-}
