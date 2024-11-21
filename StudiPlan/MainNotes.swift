@@ -23,7 +23,7 @@ struct MainNotes: View {
             
         }
         .sheet(isPresented: $isShowingSheet){
-            Text("Our bottom sheet")
+            NotesSheet()
         }
         .overlay(
             HStack{
