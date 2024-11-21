@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		593D1D9E2CEC1DB80080749E /* Journaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D1D9D2CEC1DB80080749E /* Journaling.swift */; };
 		593D1DA22CEC21070080749E /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D1DA12CEC21070080749E /* NoteRow.swift */; };
 		5947BB352AD8B6AE00813E23 /* StudiPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB342AD8B6AE00813E23 /* StudiPlanApp.swift */; };
 		5947BB372AD8B6AE00813E23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB362AD8B6AE00813E23 /* ContentView.swift */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		593D1D9D2CEC1DB80080749E /* Journaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journaling.swift; sourceTree = "<group>"; };
 		593D1DA12CEC21070080749E /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
 		5947BB312AD8B6AE00813E23 /* StudiPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5947BB342AD8B6AE00813E23 /* StudiPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiPlanApp.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				5947BB422AD8B87800813E23 /* assignments.swift */,
 				59E865502B15812F0064178B /* AddView.swift */,
 				59E8654E2B157E650064178B /* ListRowView.swift */,
-				593D1D9D2CEC1DB80080749E /* Journaling.swift */,
 				5947BB382AD8B6B000813E23 /* Assets.xcassets */,
 				5947BB3A2AD8B6B000813E23 /* Preview Content */,
 				593D1DA12CEC21070080749E /* NoteRow.swift */,
@@ -198,7 +195,6 @@
 				5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */,
 				5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */,
 				59E865512B15812F0064178B /* AddView.swift in Sources */,
-				593D1D9E2CEC1DB80080749E /* Journaling.swift in Sources */,
 				59C2E5102B125FF6009F83B9 /* study-TimerModel.swift in Sources */,
 				59E8654F2B157E650064178B /* ListRowView.swift in Sources */,
 				5947BB372AD8B6AE00813E23 /* ContentView.swift in Sources */,
