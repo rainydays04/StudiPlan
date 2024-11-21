@@ -8,6 +8,7 @@
 import Foundation
 import SwiftData
 
+
 final class Note: Identifiable {
     var id = UUID()
     var title: String

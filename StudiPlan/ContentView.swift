@@ -58,6 +58,17 @@ struct ContentView: View {
                             .padding()
                         
                     }
+                    NavigationLink(destination: MainNotes()) {
+                        Text("Journal")
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color.black)
+                            .padding()
+                            .background(Color(red: 121/255.0, green: 135/255.0, blue: 184/255.0))
+                            .cornerRadius(8)
+                            .padding()
+                        
+                    }
                     
                 }
             }
