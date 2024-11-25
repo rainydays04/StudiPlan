@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct Planner: View {
+    @EnvironmentObject var dateHolder: DateHolder
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        DataScrollerView()
+            .environmentObject(dateHolder )
+            .padding()
     }
 }
 
