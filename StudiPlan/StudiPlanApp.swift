@@ -17,9 +17,8 @@ struct StudiPlanApp: App {
     var body: some Scene {
         
         WindowGroup {
-            let dateHolder = DateHolder()
-            Planner()
-                .environmentObject(dateHolder)
+           
+        
             NavigationView {
                 ContentView()
             assignments()

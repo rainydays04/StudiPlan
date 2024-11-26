@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,10 +17,6 @@
 		5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB462AD8BC2100813E23 /* studyTimer.swift */; };
 		5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947BB482AD8BE9F00813E23 /* reasources.swift */; };
 		594FD2DA2CEF8A8F0072FEF3 /* NotesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594FD2D92CEF8A8F0072FEF3 /* NotesSheet.swift */; };
-		597825E02CF3EE9B00423E4D /* Planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597825DF2CF3EE9B00423E4D /* Planner.swift */; };
-		597825E22CF3EEB300423E4D /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597825E12CF3EEB300423E4D /* DateHolder.swift */; };
-		597825E42CF3EFB700423E4D /* DataScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597825E32CF3EFB700423E4D /* DataScrollerView.swift */; };
-		597825E62CF3F21200423E4D /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597825E52CF3F21200423E4D /* CalendarHelper.swift */; };
 		597825E82CF3FB4E00423E4D /* NotesMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597825E72CF3FB4E00423E4D /* NotesMaster.swift */; };
 		59A7DEB92B181593008646B7 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A7DEB82B181593008646B7 /* ItemModel.swift */; };
 		59A7DEBC2B1822D6008646B7 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A7DEBB2B1822D6008646B7 /* ListViewModel.swift */; };
@@ -43,10 +39,6 @@
 		5947BB462AD8BC2100813E23 /* studyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyTimer.swift; sourceTree = "<group>"; };
 		5947BB482AD8BE9F00813E23 /* reasources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reasources.swift; sourceTree = "<group>"; };
 		594FD2D92CEF8A8F0072FEF3 /* NotesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSheet.swift; sourceTree = "<group>"; };
-		597825DF2CF3EE9B00423E4D /* Planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner.swift; sourceTree = "<group>"; };
-		597825E12CF3EEB300423E4D /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
-		597825E32CF3EFB700423E4D /* DataScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScrollerView.swift; sourceTree = "<group>"; };
-		597825E52CF3F21200423E4D /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		597825E72CF3FB4E00423E4D /* NotesMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesMaster.swift; sourceTree = "<group>"; };
 		59A7DEB82B181593008646B7 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		59A7DEBB2B1822D6008646B7 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
@@ -56,6 +48,10 @@
 		59F9D4B52CEEE12E00FEF23B /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		59F9D4B72CEEE46F00FEF23B /* MainNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5951FA362CF5678200FDA6D1 /* Task Section */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Task Section"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5947BB2E2AD8B6AE00813E23 /* Frameworks */ = {
@@ -100,15 +96,8 @@
 				59E8654E2B157E650064178B /* ListRowView.swift */,
 				5947BB382AD8B6B000813E23 /* Assets.xcassets */,
 				5947BB3A2AD8B6B000813E23 /* Preview Content */,
-				593D1DA12CEC21070080749E /* NoteRow.swift */,
-				597825DF2CF3EE9B00423E4D /* Planner.swift */,
-				597825E32CF3EFB700423E4D /* DataScrollerView.swift */,
-				597825E72CF3FB4E00423E4D /* NotesMaster.swift */,
-				597825E52CF3F21200423E4D /* CalendarHelper.swift */,
-				597825E12CF3EEB300423E4D /* DateHolder.swift */,
-				59F9D4B72CEEE46F00FEF23B /* MainNotes.swift */,
-				594FD2D92CEF8A8F0072FEF3 /* NotesSheet.swift */,
-				59F9D4B52CEEE12E00FEF23B /* Note.swift */,
+				5951FA332CF5674200FDA6D1 /* Notes */,
+				5951FA362CF5678200FDA6D1 /* Task Section */,
 			);
 			path = StudiPlan;
 			sourceTree = "<group>";
@@ -119,6 +108,18 @@
 				5947BB3B2AD8B6B000813E23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5951FA332CF5674200FDA6D1 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				593D1DA12CEC21070080749E /* NoteRow.swift */,
+				597825E72CF3FB4E00423E4D /* NotesMaster.swift */,
+				59F9D4B72CEEE46F00FEF23B /* MainNotes.swift */,
+				594FD2D92CEF8A8F0072FEF3 /* NotesSheet.swift */,
+				59F9D4B52CEEE12E00FEF23B /* Note.swift */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 		59A7DEB72B181563008646B7 /* Model */ = {
@@ -151,6 +152,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5951FA362CF5678200FDA6D1 /* Task Section */,
 			);
 			name = StudiPlan;
 			productName = StudiPlan;
@@ -212,13 +216,9 @@
 				594FD2DA2CEF8A8F0072FEF3 /* NotesSheet.swift in Sources */,
 				593D1DA22CEC21070080749E /* NoteRow.swift in Sources */,
 				5947BB472AD8BC2100813E23 /* studyTimer.swift in Sources */,
-				597825E62CF3F21200423E4D /* CalendarHelper.swift in Sources */,
 				5947BB492AD8BE9F00813E23 /* reasources.swift in Sources */,
 				59E865512B15812F0064178B /* AddView.swift in Sources */,
-				597825E42CF3EFB700423E4D /* DataScrollerView.swift in Sources */,
-				597825E22CF3EEB300423E4D /* DateHolder.swift in Sources */,
 				59C2E5102B125FF6009F83B9 /* study-TimerModel.swift in Sources */,
-				597825E02CF3EE9B00423E4D /* Planner.swift in Sources */,
 				59E8654F2B157E650064178B /* ListRowView.swift in Sources */,
 				5947BB372AD8B6AE00813E23 /* ContentView.swift in Sources */,
 				5947BB452AD8BAF900813E23 /* Calculator.swift in Sources */,
